@@ -63,7 +63,7 @@ box-shadow: 2px 11px 27px -16px rgba(0,0,0,0.75);
 
 #floor {
 	width: 900px;
-	height: 40px;
+	height: 100px;
 	background:#7c7777;
 	margin-top:500px;
 	position:absolute;
@@ -389,7 +389,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', end
 
 #tableleg3 {
 	width:30px;
-	height:117px;
+	height:147px;
 	background:#5b5442;
 	margin-top:440px;
 	margin-left:850px;
