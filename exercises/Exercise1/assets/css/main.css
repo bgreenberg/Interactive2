@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+
+
+#circle1 {
+	width: 200px;
+	height: 200px;
+	background: red;
+	margin-left:300px;
+	margin-top:200px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	position:absolute;
+}
+
+
+#table {
+	width: 200px;
+	height: 100px;
+	background: brown;
+}
+
+
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
