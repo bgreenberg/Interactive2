@@ -1,0 +1,1798 @@
+
+/* ———————————————————————————————————
+ANIMATIONS */
+
+.round1 {
+	background: #2db34a;
+	border-radius: 6px;
+	cursor: pointer;
+	height: 95px;
+	line-height: 95px;
+	text-align: center;
+	transition-property: background;
+	transition-duration: 1s;
+	transition-timing-function: linear;
+	width: 100px;
+	transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+
+	position: absolute;
+	border-radius: 45px;
+	background:black;
+	border: 5px solid white;
+	outline-color: white;
+	padding: 20px; 
+	width: 100px;
+	height: 5px;
+	z-index:2;
+	left: 0px;
+	top: 0px;
+}
+
+.round1:hover {
+	transform: rotateY(180deg);
+	background: red;
+}
+.round1.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.round1.back {
+	transform: rotateY(180deg);
+}
+
+.round2 {
+	position: absolute;
+	border-radius: 45px;
+	background:black;
+	border: 5px solid white;
+	outline-color: white;
+	padding: 20px; 
+	width: 100px;
+	height: 5px;
+	z-index:2;
+	left: 0px;
+	top: 100px;
+	transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.round2:hover {
+	transform: rotateY(180deg);
+	background: red;
+}
+.round2.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.round2.back {
+	transform: rotateY(180deg);
+}
+
+.round3 {
+	position: absolute;
+	border-radius: 45px;
+	background:black;
+	border: 5px solid white;
+	outline-color: white;
+	padding: 20px; 
+	width: 100px;
+	height: 5px;
+	z-index:2;
+	left: 0px;
+	top: 228px;
+	transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+
+}
+
+/* ———————————————————————————————————
+TYPEFACE SEGMENTS */
+
+.rectangle1 {
+	position: absolute;
+	height:280px;
+	width:45px;
+	background:black;
+	left:5px;
+    transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.rectangle1:hover {
+	transform: rotateX(180deg);
+	background: red;
+}
+.rectangle1.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.rectangle1.back {
+	transform: rotateX(180deg);
+}
+
+
+
+
+.Dline {
+	position: absolute;
+	height:280px;
+	width:45px;
+	background:black;
+	left:30px;
+	 transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.Dline:hover {
+	transform: rotateY(180deg);
+	background: red;
+}
+.Dline.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.Dline.back {
+	transform: rotateY(180deg);
+
+
+}
+
+
+
+.tophalfrectangle1 {
+	position: absolute;
+	height:140px;
+	width:45px;
+	background:black;
+	left:5px;
+		    transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.tophalfrectangle1:hover {
+	transform: rotateY(180deg);
+	background: red;
+}
+.tophalfrectangle1.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.tophalfrectangle1.back {
+	transform: rotateY(180deg);
+
+}
+
+.rectangle2 {
+	position: absolute;
+	height:280px;
+	width:45px;
+	background:black;
+	left: 100px;
+	    transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.rectangle2:hover {
+	transform: rotateY(180deg);
+	background: red;
+}
+.rectangle2.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.rectangle2.back {
+	transform: rotateY(180deg);
+}
+
+
+
+.roundrectangle2 {
+	position: absolute;
+	height:275px;
+	width:45px;
+	background:black;
+	left: 100px;
+	border-radius: 45px;
+	z-index: 3;
+	border: 5px solid white;
+	    transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.roundrectangle2:hover {
+	transform: rotateY(180deg);
+	background: red;
+}
+.roundrectangle2.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.roundrectangle2.back {
+	transform: rotateY(180deg);
+}
+
+
+
+
+.rectangle2wide {
+	position: absolute;
+	height:280px;
+	width:45px;
+	background:black;
+	left: 110px;
+		    transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.rectangle2wide:hover {
+	transform: rotateY(180deg);
+	background: red;
+}
+.rectangle2wide.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.rectangle2wide.back {
+	transform: rotateY(180deg);
+}
+
+
+.rectangle3 {
+	position: absolute;
+	height:280px;
+	width:45px;
+	background:black;
+	left: 50px;
+		    transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.rectangle3:hover {
+	transform: rotateY(180deg);
+	background: red;
+}
+.rectangle3.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.rectangle3.back {
+	transform: rotateY(180deg);
+}
+
+.exclamation1 {
+	position: absolute;
+	height:200px;
+	width:45px;
+	background:black;
+	left: 0px;
+
+	  transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.exclamation1:hover {
+	transform: rotateX(180deg);
+	background: red;
+}
+.exclamation1.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.exclamation1.back {
+	transform: rotateX(180deg);
+}
+
+
+
+
+.exclamationperiod {
+	position: absolute;
+	height:45px;
+	width:45px;
+	background:black;
+	left: 0px;
+	top:230px;
+		  transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.exclamationperiod:hover {
+	transform: rotateX(180deg);
+	background: red;
+}
+.exclamationperiod.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.exclamationperiod.back {
+	transform: rotateX(180deg);
+}
+
+.exclamationperiod2 {
+	position: absolute;
+	height:45px;
+	width:45px;
+	background:black;
+	left: 4px;
+	top:230px;
+	transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.exclamationperiod2:hover {
+	transform: rotateX(180deg);
+	background: red;
+}
+.exclamationperiod2.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.exclamationperiod2.back {
+	transform: rotateX(180deg);
+}
+}
+.bottomhalfrectangle1 {
+	position: absolute;
+	height:140px;
+	width:45px;
+	background:black;
+	left:5px;
+	top:100px;
+		    transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.bottomhalfrectangle1:hover {
+	transform: rotateY(180deg);
+	background: red;
+}
+.bottomhalfrectangle1.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.bottomhalfrectangle1.back {
+	transform: rotateY(180deg);
+
+}
+
+
+.bottomhalfhalfrectangle1 {
+	position: absolute;
+	height:90px;
+	width:45px;
+	background:black;
+	left:5px;
+	top:100px;
+			    transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.bottomhalfhalfrectangle1:hover {
+	transform: rotateY(180deg);
+	background: red;
+}
+.bottomhalfhalfrectangle1.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.bottomhalfhalfrectangle1.back {
+	transform: rotateY(180deg);
+
+
+
+}
+
+
+.bottomhalfrectangle2 {
+	position: absolute;
+	height:140px;
+	width:45px;
+	background:black;
+	left: 100px;
+	top:100px;
+			    transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.bottomhalfrectangle2:hover {
+	transform: rotateX(180deg);
+	background: red;
+}
+.bottomhalfrectangle2.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.bottomhalfrectangle2.back {
+	transform: rotateX(180deg);
+
+
+
+}
+
+.bottomhalfrectangle3 {
+	position: absolute;
+	height:140px;
+	width:45px;
+	background:black;
+	left: 50px;
+	top:140px;
+				    transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.bottomhalfrectangle3:hover {
+	transform: rotateX(180deg);
+	background: red;
+}
+.bottomhalfrectangle3.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.bottomhalfrectangle3.back {
+	transform: rotateX(180deg);
+
+}
+
+.tophalfrectangle2 {
+	position: absolute;
+	height:140px;
+	width:45px;
+	background:black;
+	left: 100px;
+				    transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.tophalfrectangle2:hover {
+	transform: rotateX(180deg);
+	background: red;
+}
+.tophalfrectangle2.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.tophalfrectangle2.back {
+	transform: rotateX(180deg);
+
+}
+
+.halfround2 {
+	position: absolute;
+	border-radius: 45px;
+	background:black;
+	border: 5px solid white;
+	outline-color: white;
+	padding: 20px; 
+	width: 50px;
+	height: 5px;
+	z-index:2;
+	left: 53px;
+	top: 100px;
+transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.halfround2:hover {
+	transform: rotateY(180deg);
+	background: red;
+}
+.halfround2.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.halfround2.back {
+	transform: rotateY(180deg);
+}
+
+
+
+.diagonalright1 {
+	position: absolute;
+	border-radius: 45px;
+	background:black;
+	border: 5px solid white;
+	outline-color: white;
+	padding: 20px; 
+	width: 147px;
+	height: 5px;
+	z-index:1;
+	left: -20px;
+	top: 170px;
+	-ms-transform: rotate(50deg); /* IE 9 */
+	-webkit-transform: rotate(50deg); /* Chrome, Safari, Opera */
+	transform: rotate(50deg);
+
+				    transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.diagonalright1:hover {
+	transform: rotateX(180deg);
+	background: red;
+}
+.diagonalright1.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.diagonalright1.back {
+	transform: rotateX(180deg);
+
+}
+
+.diagonalrightup {
+	position: absolute;
+	border-radius: 45px;
+	background:black;
+	border: 5px solid white;
+	outline-color: white;
+	padding: 20px; 
+	width: 140px;
+	height: 5px;
+	z-index:2;
+	left: -20px;
+	top: 55px;
+
+	-ms-transform: rotate(135deg); /* IE 9 */
+	-webkit-transform: rotate(135deg); /* Chrome, Safari, Opera */
+	transform: rotate(135deg);
+
+
+}
+
+.oneslant {
+	position: absolute;
+	border-radius: 45px;
+	background:black;
+	border: 5px solid white;
+	outline-color: white;
+	padding: 20px; 
+	width: 50px;
+	height: 5px;
+	z-index:2;
+	left: 0px;
+transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.oneslant:hover {
+	transform: rotateY(180deg);
+	background: red;
+}
+.oneslant.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.oneslant.back {
+	transform: rotateY(180deg);
+}
+
+
+.quotationslant1 {
+	position: absolute;
+	border-radius: 45px;
+	background:black;
+	border: 5px solid white;
+	outline-color: white;
+	padding: 20px; 
+	width: 50px;
+	height: 5px;
+	z-index:2;
+	left: 0px;
+	top: 0px;
+	-ms-transform: rotate(55deg); /* IE 9 */
+	-webkit-transform: rotate(55deg); /* Chrome, Safari, Opera */
+	transform: rotate(55deg);
+	transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.quotationslant1:hover {
+	transform: rotateX(180deg);
+	background: red;
+}
+.quotationslant1.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.quotationslant1.back {
+	transform: rotateX(180deg);
+}
+
+
+.quotationslant2 {
+	position: absolute;
+	border-radius: 45px;
+	background:black;
+	border: 5px solid white;
+	outline-color: white;
+	padding: 20px; 
+	width: 50px;
+	height: 5px;
+	z-index:2;
+	left: 60px;
+	top: 0px;
+	-ms-transform: rotate(55deg); /* IE 9 */
+	-webkit-transform: rotate(55deg); /* Chrome, Safari, Opera */
+	transform: rotate(55deg);
+	transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.quotationslant2:hover {
+	transform: rotateX(180deg);
+	background: red;
+}
+.quotationslant2.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.quotationslant2.back {
+	transform: rotateX(180deg);
+}
+
+
+.quotationslant3 {
+	position: absolute;
+	border-radius: 45px;
+	background:black;
+	border: 5px solid white;
+	outline-color: white;
+	padding: 20px; 
+	width: 50px;
+	height: 5px;
+	z-index:2;
+	left: 0px;
+	top: 0px;
+	-ms-transform: rotate(125deg); /* IE 9 */
+	-webkit-transform: rotate(125deg); /* Chrome, Safari, Opera */
+	transform: rotate(125deg);
+	transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.quotationslant3:hover {
+	transform: rotateX(180deg);
+	background: red;
+}
+.quotationslant3.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.quotationslant3.back {
+	transform: rotateX(180deg);
+}
+
+
+
+.quotationslant4 {
+	position: absolute;
+	border-radius: 45px;
+	background:black;
+	border: 5px solid white;
+	outline-color: white;
+	padding: 20px; 
+	width: 50px;
+	height: 5px;
+	z-index:2;
+	left: 60px;
+	top: 0px;
+	-ms-transform: rotate(125deg); /* IE 9 */
+	-webkit-transform: rotate(125deg); /* Chrome, Safari, Opera */
+	transform: rotate(125deg);
+	transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.quotationslant4:hover {
+	transform: rotateX(180deg);
+	background: red;
+}
+.quotationslant4.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.quotationslant4.back {
+	transform: rotateX(180deg);
+}
+
+
+.comma1 {
+	position: absolute;
+	border-radius: 45px;
+	background:black;
+	border: 5px solid white;
+	outline-color: white;
+	padding: 20px; 
+	width: 50px;
+	height: 5px;
+	z-index:2;
+	left: 0px;
+	top: 200px;
+	-ms-transform: rotate(125deg); /* IE 9 */
+	-webkit-transform: rotate(125deg); /* Chrome, Safari, Opera */
+	transform: rotate(125deg);
+	transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.comma1:hover {
+	transform: rotateX(180deg);
+	background: red;
+}
+.comma1.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.comma1.back {
+	transform: rotateX(180deg);
+
+}
+
+
+
+.period1 {
+	position: absolute;
+	height:45px;
+	width:45px;
+	background:black;
+	left: 0px;
+	top:140px;
+	transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.period1:hover {
+	transform: rotateX(180deg);
+	background: red;
+}
+.period1.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.period1.back {
+	transform: rotateX(180deg);
+}
+
+
+
+.questionperiod1 {
+	position: absolute;
+	height:45px;
+	width:45px;
+	background:black;
+	left: 0px;
+	top:250px;
+}
+
+
+.V1{
+	position: absolute;
+	border-radius: 45px;
+	background:black;
+	border: 5px solid white;
+	outline-color: white;
+	padding: 20px; 
+	width: 235px;
+	height: 5px;
+	z-index:2;
+	left: -40px;
+	top: 112px;
+
+	-ms-transform: rotate(100deg); /* IE 9 */
+	-webkit-transform: rotate(100deg); /* Chrome, Safari, Opera */
+	transform: rotate(100deg);
+			    transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.V1:hover {
+	transform: rotateY(180deg);
+	background: red;
+}
+.V1.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.V1.back {
+	transform: rotateY(180deg);
+
+
+}
+.V2{
+	position: absolute;
+	border-radius: 45px;
+	background:black;
+	border: 5px solid white;
+	outline-color: white;
+	padding: 20px; 
+	width: 235px;
+	height: 5px;
+	z-index:2;
+	left: -80px;
+	top: 112px;
+
+	-ms-transform: rotate(-100deg); /* IE 9 */
+	-webkit-transform: rotate(-100deg); /* Chrome, Safari, Opera */
+	transform: rotate(-100deg);
+	
+			    transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.V2:hover {
+	transform: rotateX(180deg);
+	background: red;
+}
+.V2.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.V2.back {
+	transform: rotateX(180deg);
+
+
+}
+
+.Nslant{
+	position: absolute;
+	border-radius: 45px;
+	background:black;
+	border: 5px solid white;
+	outline-color: white;
+	padding: 20px; 
+	width: 250px;
+	height: 5px;
+	z-index:2;
+	left: -70px;
+	top: 112px;
+
+	-ms-transform: rotate(-112deg); /* IE 9 */
+	-webkit-transform: rotate(-112deg); /* Chrome, Safari, Opera */
+	transform: rotate(-112deg);
+
+	    transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.Nslant:hover {
+	transform: rotateX(180deg);
+	background: red;
+}
+.Nslant.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.Nslant.back {
+	transform: rotateX(180deg);
+
+
+}
+
+.Nslant2{
+	position: absolute;
+	border-radius: 45px;
+	background:black;
+	border: 5px solid white;
+	outline-color: white;
+	padding: 20px; 
+	width: 250px;
+	height: 5px;
+	z-index:2;
+	left: -70px;
+	top: 112px;
+
+	-ms-transform: rotate(-248deg); /* IE 9 */
+	-webkit-transform: rotate(-248deg); /* Chrome, Safari, Opera */
+	transform: rotate(-248deg);
+
+	  transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.Nslant2:hover {
+	transform: rotateX(180deg);
+	background: red;
+}
+.Nslant2.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.Nslant2.back {
+	transform: rotateX(180deg);
+}
+
+.Zslant2{
+	position: absolute;
+	border-radius: 45px;
+	background:black;
+	border: 5px solid white;
+	outline-color: white;
+	padding: 20px; 
+	width: 245px;
+	height: 5px;
+	z-index:2;
+	left: -72px;
+	top: 110px;
+
+	-ms-transform: rotate(-247deg); /* IE 9 */
+	-webkit-transform: rotate(-247deg); /* Chrome, Safari, Opera */
+	transform: rotate(-247deg);
+
+
+	  transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.Zslant2:hover {
+	transform: rotateX(180deg);
+	background: red;
+}
+.Zslant2.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.Zslant2.back {
+	transform: rotateX(180deg);
+
+}
+
+.Mslant2{
+	position: absolute;
+	border-radius: 45px;
+	background:black;
+	border: 5px solid white;
+	outline-color: white;
+	padding: 20px; 
+	width: 100px;
+	height: 5px;
+	z-index:2;
+	left: -18px;
+	top: 38px;
+
+	-ms-transform: rotate(-119deg); /* IE 9 */
+	-webkit-transform: rotate(-119deg); /* Chrome, Safari, Opera */
+	transform: rotate(-119deg);
+
+	  transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.Mslant2:hover {
+	transform: rotateY(180deg);
+	background: red;
+}
+.Mslant2.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.Mslant2.back {
+	transform: rotateY(180deg);
+}
+
+
+
+
+.Mslant1{
+	position: absolute;
+	border-radius: 45px;
+	background:black;
+	border: 5px solid white;
+	outline-color: white;
+	padding: 20px; 
+	width: 100px;
+	height: 5px;
+	z-index:2;
+	left: 29px;
+	top: 38px;
+
+	-ms-transform: rotate(-60deg); /* IE 9 */
+	-webkit-transform: rotate(-60deg); /* Chrome, Safari, Opera */
+	transform: rotate(-60deg);
+
+	  transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.Mslant1:hover {
+	transform: rotateX(180deg);
+	background: red;
+}
+.Mslant1.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.Mslant1.back {
+	transform: rotateX(180deg);
+}
+
+
+
+
+
+.Wslant2{
+	position: absolute;
+	border-radius: 45px;
+	background:black;
+	border: 5px solid white;
+	outline-color: white;
+	padding: 20px; 
+	width: 100px;
+	height: 5px;
+	z-index:2;
+	left: -18px;
+	top: 185px;
+
+	-ms-transform: rotate(-60deg); /* IE 9 */
+	-webkit-transform: rotate(-60deg); /* Chrome, Safari, Opera */
+	transform: rotate(-60deg);
+
+	  transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.Wslant2:hover {
+	transform: rotateX(180deg);
+	background: red;
+}
+.Wslant2.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.Wslant2.back {
+	transform: rotateX(180deg);
+}
+
+
+
+.Wslant1{
+	position: absolute;
+	border-radius: 45px;
+	background:black;
+	border: 5px solid white;
+	outline-color: white;
+	padding: 20px; 
+	width: 100px;
+	height: 5px;
+	z-index:2;
+	left: 29px;
+	top: 185px;
+
+	-ms-transform: rotate(240deg); /* IE 9 */
+	-webkit-transform: rotate(240deg); /* Chrome, Safari, Opera */
+	transform: rotate(240deg);
+
+	  transform-style: preserve-3d;
+	transition: all .25s ease-in-out;
+}
+
+.Wslant1:hover {
+	transform: rotateX(180deg);
+	background: red;
+}
+.Wslant1.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.Wslant1.back {
+	transform: rotateX(180deg);
+}
+
+
+
+
+
+/* ———————————————————————————————————
+LETTER CONTAINERS */
+
+.A {
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	
+}
+
+.B{
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	
+}
+
+
+.C {
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	
+}
+
+.H {
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+}
+
+
+.O {
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	
+
+}
+
+.E {
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	
+
+}
+
+.F {
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+
+}
+
+.I {
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	
+}
+
+.U {
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	
+}
+
+
+
+.T {
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	
+}
+
+.G {
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	
+}
+
+
+.Y {
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	
+}
+
+.P {
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	
+}
+
+
+.S {
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	
+
+}
+
+.J {
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	
+}
+
+.L{
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	
+}
+
+.D{
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	
+}
+
+
+.K{
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	
+}
+
+.Q{
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	
+}
+
+.R{
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	
+}
+
+.V{
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	
+}
+
+.N {
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+}
+
+
+.M{
+	position: relative;
+	float: left;
+	width: 160px;
+	height: 280px;
+	
+}
+
+
+.W{
+	position: relative;
+	float: left;
+	width: 160px;
+	height: 280px;
+	
+}
+
+.X{
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	
+}
+
+
+
+.Z{
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	
+}
+
+
+.zero{
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	
+}
+
+.one{
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	
+}
+
+
+.two{
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	
+}
+.eight{
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	
+}
+
+.three{
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	
+}
+
+
+.four{
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	
+}
+
+
+.five{
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	
+}
+
+
+
+
+
+
+
+.six{
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	
+}
+
+
+.seven{
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	
+}
+
+.eight{
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	
+}
+
+
+
+.nine{
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+}
+
+.comma{
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	top:20px;
+}
+
+
+.quotation{
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	top:20px;
+}
+
+.quotation2{
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	top:20px;
+}
+
+.period{
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	top:90px;
+}
+
+.exclamation{
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	top:0px;
+}
+
+.questionmark{
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 280px;
+	top:0px;
+}
+
+
+
+
+
+.round3:hover {
+	transform: rotateY(180deg);
+	background:red;
+}
+.round3.side {
+	backface-visibility: hidden;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+.round3.back {
+	transform: rotateY(180deg);
+}
+
+
+
+
+
+/* ———————————————————————————————————
+TYPEFACE SEGMENTS */
+
+
+
+
+
+/* ———————————————————————————————————
+BOB */
+.bobhead{
+
+	position: relative;
+	float: left;
+	width: 330px;
+	z-index: 3;
+	height: 130px;
+	top:200px;
+	border-radius:90px;
+	border: 10px solid black;
+	outline-color: black;
+	background: rgba(226,226,226,1);
+background: -moz-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(209,209,209,1) 26%, rgba(254,254,254,1) 83%, rgba(219,219,219,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(226,226,226,1)), color-stop(26%, rgba(209,209,209,1)), color-stop(83%, rgba(254,254,254,1)), color-stop(100%, rgba(219,219,219,1)));
+background: -webkit-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(209,209,209,1) 26%, rgba(254,254,254,1) 83%, rgba(219,219,219,1) 100%);
+background: -o-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(209,209,209,1) 26%, rgba(254,254,254,1) 83%, rgba(219,219,219,1) 100%);
+background: -ms-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(209,209,209,1) 26%, rgba(254,254,254,1) 83%, rgba(219,219,219,1) 100%);
+background: linear-gradient(to right, rgba(226,226,226,1) 0%, rgba(209,209,209,1) 26%, rgba(254,254,254,1) 83%, rgba(219,219,219,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#dbdbdb', GradientType=1 );
+
+	
+}
+/*--------BOBTHEROBOT--------------*/
+
+.Bobtherobot{
+	left:400px;
+	width: 600px;
+	height:600px;
+	position:relative;
+}
+
+
+.Bobtalk{
+	left:400px;
+	width: 600px;
+	height:600px;
+	position:relative;
+}
+
+
+.Bobtherobotabout{
+	left:400px;
+	width: 600px;
+	height:600px;
+	position:relative;
+	top:-100px;
+}
+
+
+.Bobeye1 {
+	position: absolute;
+	border-radius: 45px;
+	background:white;
+	border: 5px solid white;
+	outline-color: white;
+	padding: 20px; 
+	width: 100px;
+	height: 5px;
+	z-index:3;
+	left: 0px;
+	top: 25px;
+}
+
+.Bobinnereye1 {
+	position: absolute;
+	border-radius: 45px;
+	background:black;
+	border: 5px solid white;
+	outline-color: white;
+	padding: 20px; 
+	width: 30px;
+	height: 5px;
+	z-index:4;
+	left: 35px;
+	top: 25px;
+}
+
+
+.Bobeye2 {
+	position: absolute;
+	border-radius: 45px;
+	background:white;
+	border: 5px solid white;
+	outline-color: white;
+	padding: 20px; 
+	width: 100px;
+	height: 5px;
+	z-index:3;
+	left: 165px;
+	top: 25px;
+}
+
+.Bobinnereye2 {
+	position: absolute;
+	border-radius: 45px;
+	background:black;
+	border: 5px solid white;
+	outline-color: white;
+	padding: 20px; 
+	width: 30px;
+	height: 5px;
+	z-index:4;
+	left: 200px;
+	top: 25px;
+}
+
+
+
+.Bobmouth {
+	position: absolute;
+	border-radius: 45px;
+	background:black;
+	border: 5px solid white;
+	outline-color: white;
+	padding: 20px; 
+	width: 200px;
+	height: 35px;
+	z-index:3;
+	left: 45px;
+	top: 95px;
+}
+
+
+
+.Bobupperarm {
+	position: absolute;
+	background:gray;
+	border: 5px solid white;
+	outline-color: white;
+	padding: 20px; 
+	width: 5px;
+	height: 100px;
+	z-index:1;
+	left: 410px;
+	top: 580px;
+}
+
+
+
+.Bobarm {
+	position: absolute;
+	border-radius: 45px;
+	background:gray;
+	border: 5px solid white;
+	outline-color: white;
+	padding: 20px; 
+	width: 100px;
+	height: -13px;
+	z-index:2;
+	left: 310px;
+	top: 685px;
+}
+
+.Bobbody{
+	position: absolute;
+	background:gray;
+	border: 5px solid white;
+	outline-color: white;
+	padding: 20px; 
+	width: 155px;
+	height: 200px;
+	z-index:1;
+	left: 90px;
+	top: 580px;
+}
+
+.Bobhand {
+	position: absolute;
+	border-radius: 45px;
+	background:gray;
+	border: 5px solid white;
+	outline-color: white;
+	padding: 20px; 
+	width: 40px;
+	height: -13px;
+	z-index:2;
+	left: 390px;
+	top: 535px;
+}
+
+.Bobfinger1 {
+	position: absolute;
+	background:gray; 
+	width: 10px;
+	height: 30px;
+	z-index:1;
+	left: 410px;
+	top: 500px;
+}
+
+.Bobfinger2 {
+	position: absolute;
+	background:gray; 
+	width: 10px;
+	height: 30px;
+	z-index:1;
+	left: 450px;
+	top: 500px;
+}
+
+
+.Bobfinger3 {
+	position: absolute;
+	background:gray; 
+	width: 10px;
+	height: 30px;
+	z-index:1;
+	left: 380px;
+	top: 540px;
+
+	-ms-transform: rotate(90deg); /* IE 9 */
+	-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+	transform: rotate(90deg);
+
+}
+
+
+.Bobantenna1 {
+	position: absolute;
+	background:gray; 
+	width: 10px;
+	height: 50px;
+	z-index:1;
+	left: 100px;
+	top: 430px;
+}
+
+.Bobantenna2 {
+	position: absolute;
+	background:gray; 
+	width: 10px;
+	height: 50px;
+	z-index:1;
+	left: 250px;
+	top: 430px;
+}
+
+
+
+
+
+
