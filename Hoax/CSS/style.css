@@ -1,0 +1,227 @@
+body {
+	width:100%;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+
+
+
+h5 {
+	margin-top: 0;
+}
+
+.top{
+	z-index:1;
+}
+
+#header {
+	width:100%;
+	z-index: 1;
+}
+
+#ordernowbutton {
+	position: absolute;
+	width: 15%;
+	height:50px;
+	background-color: red;
+	z-index: 2;
+	top: 20px;
+	right:10px;
+	text-align: center;
+}
+
+/*.specials {
+	width:100%;
+	margin-left:35px;
+	position:relative;
+}
+
+.menu {
+	width:100%;
+	margin-left:35px;
+	position:relative;
+
+}
+
+#food1 {
+	float:left;
+
+}*/
+
+/* Text
+-------------------------------------------------- */
+.ordernow{
+	position: relative;
+	height: 100%;
+	top: 35%;
+}
+.specials {
+	text-align: center;
+	z-index: 2;
+}
+
+.menu {
+	width: 70%;
+	margin: 0 auto;
+}
+.list {
+	position: relative;
+	width: 100%;
+	float: left;
+}
+.menutext{
+	padding-bottom: 15px;
+	padding-left: 15px;
+	height: 441px;
+	position: relative;
+	float:left;
+	width: 50%;
+}
+
+/* Image
+-------------------------------------------------- */
+#special1 {
+	width: 100%;
+}
+
+.specialimg {
+	width: 30%;
+	margin: 0 7.5px 0 7.5px;
+}
+.menuimg {
+	padding-bottom: 15px;
+	position: relative;
+	float:left;
+	width: 45%;
+}
+
+.footer {
+	width:100%;
+	height:640px;
+	background-color: black;
+	position:relative;
+	float:left;
+
+}
+
+#socialicons {
+	
+}
+
+#socialicons img{
+	
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+
+#appstoreicons {
+	margin-top: 15%;
+	margin-left: 5%;
+}
+
+.footer h4{
+	color: white;
+	margin-top: 50px;
+	margin-left: 50px;
+	z-index:2;
+
+}
+     
+#infobox1 {
+	height:268px;
+	width:380px;
+	float: right;
+	line-height: 40px;
+
+}
+
+#infobox1 h4{
+	color: white;
+	
+
+}
+
+
+#infobox2 {
+	height:268px;
+	width:380px;
+	float: right;
+	line-height: 40px;
+
+}
+
+#infobox2 h4{
+	color: white;
+	
+
+}
+
+#copyright {
+	height:268px;
+	width:380px;
+	float: right;
+	line-height: 20px;
+
+}
+
+#copyright h5{
+	color: white;
+	
+
+}
+
+.bigbull {
+	float:right;
+	z-index:0;
+	position:fixed;
+	margin-left:73%;
+
+}
+
+.bigbull img{
+	
+	margin-top: 10px;
+	margin-left: 50px;
+}
+
+
+
+
+
+/* iPad 
+-------------------------------------------------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+/* Text
+-------------------------------------------------- */
+	.menutext{
+		height: 334px;
+	}
+
+
+/* Image
+-------------------------------------------------- */
+
+
+}
+
+
+/* Mobile
+-------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+
+	/* Text
+-------------------------------------------------- */
+	.menutext{
+		height: 242px;
+	}
+	.ordernow {
+		top: 40%;
+		font-size: .25em;
+	}
+
+
+/* Image
+-------------------------------------------------- */
